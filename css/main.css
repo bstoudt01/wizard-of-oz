@@ -41,9 +41,18 @@ h1 {
     display: flex;
     width: 100%;
     background-color: #FAEBD7;
-    height: 300px;
-    overflow: auto;
+    height: 300;
+}
 
+.flex-item {
+background-color: hotpink;
+flex: 1;
+margin: 1em;
+}
+
+.section-item {
+    margin: 0 auto;
+    width 100%;
 }
 
 .yellow-road-img {
